@@ -1,0 +1,35 @@
+#navbar .social{
+    display: none;
+}
+#navbar .container{
+    grid-template-columns: 3fr 1fr;
+}
+#showcase .container{
+    grid-template-columns: 1fr;
+}
+#homeArticles .articles-container{
+    grid-template-columns: 1fr;
+}
+.card-grid{
+    grid-template-columns: 1fr;
+}
+.card-grid:first-child{
+    grid-column: 1;
+}
+
+.card-grid:last-child{
+    grid-column: 1;
+}
+#pageFooter .footer-container{
+    grid-template-columns: 1fr;
+}
+#pageFooter .footer-container>*:last-child{
+    grid-column: 1;
+}
+.page-content{
+    grid-template-columns: 1fr;
+}
+
+/*tablet 768 , 1028 px pr chlta h
+animate.css for animations
+wow js javascript library for transititon in css*/
